@@ -22,10 +22,10 @@ echo "Adresy MAC:"
 ip a | grep "link/ether" | awk '{print $2}'
 echo
 echo "Pamięć RAM (w MB):"
-free -m | grep "Pamięć:" | awk '{print $2}'
+free -m | grep "Mem:" | awk '{print $2}'
 echo
 echo "Pamięć wirtualna (w MB)"
-free -m | grep "Wymiana" | awk '{print $2}'
+free -m | grep "Swap" | awk '{print $2}'
 echo
 echo "Producent płyty głównej"
 dmidecode -t baseboard | grep "Manufacturer"
