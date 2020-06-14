@@ -1,4 +1,5 @@
+su
 clear
 echo test123
 cd ../
-rmdit 95656
+rm -rf 95656
