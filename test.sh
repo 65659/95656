@@ -1,4 +1,3 @@
-su
 clear
 echo test123
 cd ../
